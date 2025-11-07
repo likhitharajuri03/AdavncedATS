@@ -1,0 +1,49 @@
+# Core Framework
+flask==3.0.0
+flask-cors==4.0.0
+flask-jwt-extended==4.5.3
+
+# AI & ML Libraries
+google-generativeai==0.3.1
+nltk==3.8.1
+spacy==3.7.2
+transformers==4.36.0
+
+# Note: Using Google's Generative AI for ML tasks instead of traditional ML libraries
+# This provides better compatibility with Python 3.13.7 and modern AI capabilities
+
+# Document Processing
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+python-docx==1.1.0
+python-pptx==0.6.23
+Pillow==10.1.0
+pytesseract==0.3.10
+pdf2image==1.16.3
+
+# Text Processing & NLP
+sentence-transformers==2.2.2
+beautifulsoup4==4.12.2
+regex==2023.10.3
+pandas==2.1.4
+numpy==1.26.2
+
+# Web Scraping
+selenium==4.15.2
+playwright==1.40.0
+requests==2.31.0
+
+# Database
+pymongo==4.6.0
+sqlalchemy==2.0.23
+
+# Utilities
+python-dotenv==1.0.0
+joblib==1.3.2
+tqdm==4.66.1
+openpyxl==3.1.2
+validators==0.22.0
+
+# API & Authentication
+gunicorn==21.2.0
+bcrypt==4.1.1
